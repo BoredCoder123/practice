@@ -21,18 +21,19 @@ import java.util.*;
  * </ul>
  * LeetCode problems:
  * <ul>
- *     <li><a href="https://leetcode.com/problems/number-of-islands/">200. Number of Islands</a> — Count the number of connected components in a 2D grid.</li>
- *     <li><a href="https://leetcode.com/problems/surrounded-regions/">130. Surrounded Regions</a> — Capture regions surrounded by 'X' using DFS to mark boundaries.</li>
- *     <li><a href="https://leetcode.com/problems/word-search/">79. Word Search</a> — Backtracking DFS to find a word in a 2D board.</li>
- *     <li><a href="https://leetcode.com/problems/longest-increasing-path-in-a-matrix/">329. Longest Increasing Path in a Matrix</a> — DFS with memoization to find the longest increasing path.</li>
- *     <li><a href="https://leetcode.com/problems/clone-graph/">133. Clone Graph</a> — DFS to clone an undirected graph.</li>
- *     <li><a href="https://leetcode.com/problems/course-schedule/">207. Course Schedule</a> — Detect cycles in a directed graph using DFS.</li>
- *     <li><a href="https://leetcode.com/problems/course-schedule-ii/">210. Course Schedule II</a> — Topological sort using DFS to find a valid course order.</li>
- *     <li><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/">417. Pacific Atlantic Water Flow</a> — DFS to find cells that can flow to both oceans.</li>
- *     <li><a href="https://leetcode.com/problems/max-area-of-island/">695. Max Area of Island</a> — DFS to find the largest connected component in a grid.</li>
- *     <li><a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">17. Letter Combinations of a Phone Number</a> — Backtracking DFS to generate all letter combinations.</li>
- *     <li><a href="https://leetcode.com/problems/generate-parentheses/">22. Generate Parentheses</a> — Backtracking DFS to generate valid parentheses combinations.</li>
- *     <li><a href="https://leetcode.com/problems/permutations/">46. Permutations</a> — Backtracking DFS to generate all permutations of a list.</li>
+ *     <li><a href="https://leetcode.com/problems/number-of-islands/">200. Number of Islands</a></li>
+ *     <li><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">104. Maximum Depth of Binary Tree</a></li>
+ *     <li><a href="https://leetcode.com/problems/path-sum/">112. Path Sum</a></li>
+ *     <li><a href="https://leetcode.com/problems/path-sum-ii/">113. Path Sum II</a></li>
+ *     <li><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/">236. Lowest Common Ancestor of a Binary Tree</a></li>
+ *     <li><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">105. Construct Binary Tree from Preorder and Inorder Traversal</a></li>
+ *     <li><a href="https://leetcode.com/problems/combination-sum/">39. Combination Sum</a></li>
+ *     <li><a href="https://leetcode.com/problems/combination-sum-ii/">40. Combination Sum II</a></li>
+ *     <li><a href="https://leetcode.com/problems/permutations/">46. Permutations</a></li>
+ *     <li><a href="https://leetcode.com/problems/permutations-ii/">47. Permutations II</a></li>
+ *     <li><a href="https://leetcode.com/problems/subsets/">78. Subsets</a></li>
+ *     <li><a href="https://leetcode.com/problems/subsets-ii/">90. Subsets II</a></li>
+ *     <li><a href="https://leetcode.com/problems/word-search/">79. Word Search</a></li>
  * </ul>
  */
 public class DFS {
