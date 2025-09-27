@@ -26,12 +26,13 @@ import java.util.*;
  *     <li><a href="https://leetcode.com/problems/path-with-minimum-effort/">1631. Path With Minimum Effort</a> — grid variant, min-max edge weights</li>
  *     <li><a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/">1091. Shortest Path in Binary Matrix</a> — shortest path in a 2D grid with 8 directions</li>
  *     <li><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/">787. Cheapest Flights Within K Stops</a> — Dijkstra with stop constraint</li>
+ *     <li><a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/description/">1091. Shortest Path in Binary Matrix</a></li>
  *     <li><a href="https://leetcode.com/problems/swim-in-rising-water/">778. Swim in Rising Water</a> — min-max path in grid, elevation constraints</li>
  *     <li><a href="https://leetcode.com/problems/second-minimum-time-to-reach-destination/">2045. Second Minimum Time to Reach Destination</a> — shortest path with extra time constraints</li>
  *     <li><a href="https://leetcode.com/problems/shortest-path-to-get-all-keys/">864. Shortest Path to Get All Keys</a> — BFS + Dijkstra hybrid on grid with state masks</li>
  *     <li><a href="https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/">2577. Minimum Time to Visit a Cell in a Grid</a> — shortest path with dynamic constraints</li>
  *     <li><a href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/">1368. Minimum Cost to Make at Least One Valid Path in a Grid</a> — weighted grid path problem</li>
- *     <li><a href="https://leetcode.com/problems/minimum-cost-to-reach-city-with-discounts/">1928. Minimum Cost to Reach City With Discounts</a> — Dijkstra with edge discounts</li>
+ *     <li><a href="https://leetcode.com/problems/shopping-offers/description/">638. Shopping Offers</a> — Dijkstra with edge discounts</li>
  * </ul>
  */
 
