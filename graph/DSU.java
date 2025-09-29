@@ -35,7 +35,6 @@ import java.util.*;
  * <ul>
  *     <li><a href="https://leetcode.com/problems/redundant-connection/">684. Redundant Connection</a> — detect cycle in undirected graph</li>
  *     <li><a href="https://leetcode.com/problems/number-of-provinces/">547. Number of Provinces</a></li>
- *     <li><a href="https://leetcode.com/problems/friend-circles/">547. Number of Provinces</a></li>
  *     <li><a href="https://leetcode.com/problems/accounts-merge/">721. Accounts Merge</a></li>
  *     <li><a href="https://leetcode.com/problems/satisfiability-of-equality-equations/">990. Satisfiability of Equality Equations</a></li>
  *     <li><a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/">947. Most Stones Removed with Same Row or Column</a></li>
