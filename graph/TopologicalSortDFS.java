@@ -32,7 +32,7 @@ public class TopologicalSortDFS {
         visited[node] = true;
         for(int nei : graph.get(node)) {
             if(!visited[nei])
-                st.push(nei);
+                dfs(nei, graph, visited, st);
         }
         st.push(node);
     }
