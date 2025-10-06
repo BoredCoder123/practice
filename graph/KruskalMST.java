@@ -24,14 +24,13 @@ import java.util.*;
  * <br>
  * LeetCode problems (free tier):
  * <ul>
- *     <li><a href="https://leetcode.com/problems/connecting-cities-with-minimum-cost/">1135. Connecting Cities With Minimum Cost</a> — Classic Kruskal MST using Union-Find.</li>
- *     <li><a href="https://leetcode.com/problems/min-cost-to-connect-all-points/">1584. Min Cost to Connect All Points</a> — Can be solved with both Prim or Kruskal approaches.</li>
- *     <li><a href="https://leetcode.com/problems/min-cost-to-supply-water/">1168. Min Cost to Supply Water</a> — Virtual node + Kruskal variant.</li>
- *     <li><a href="https://leetcode.com/problems/redundant-connection/">684. Redundant Connection</a> — Cycle detection using Union-Find (inverse of MST building).</li>
- *     <li><a href="https://leetcode.com/problems/redundant-connection-ii/">685. Redundant Connection II</a> — Directed version of Union-Find-based cycle resolution.</li>
- *     <li><a href="https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/">1101. The Earliest Moment When Everyone Become Friends</a> — Union-Find time of connectivity problem.</li>
- *     <li><a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/">947. Most Stones Removed with Same Row or Column</a> — Disjoint Set connectivity problem (Union-Find heavy).</li>
- *     <li><a href="https://leetcode.com/problems/accounts-merge/">721. Accounts Merge</a> — Classic Union-Find merging problem.</li>
+ *   <li><a href="https://leetcode.com/problems/min-cost-to-connect-all-points/">1584. Min Cost to Connect All Points</a> — Can be solved cleanly with Prim’s using Manhattan distances on a complete graph.</li>
+ *   <li><a href="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/">1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree</a> — Build MST and analyze edges; pairs well with Prim/Kruskal understanding.</li>
+ *   <li><a href="https://leetcode.com/problems/redundant-connection/">684. Redundant Connection</a> — Union-Find cycle detection; inverse perspective of MST building</li>
+ *   <li><a href="https://leetcode.com/problems/redundant-connection-ii/">685. Redundant Connection II</a> — Directed variant; handle two-parent node vs cycle with Union-Find logic.</li>
+ *   <li><a href="https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/">1101. The Earliest Moment When Everyone Become Friends</a> — Sort by time and union until fully connected</li>
+ *   <li><a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/">947. Most Stones Removed with Same Row or Column</a> — Union rows and columns; remove all but one per component</li>
+ *   <li><a href="https://leetcode.com/problems/accounts-merge/">721. Accounts Merge</a> — Merge accounts via shared emails using Union-Find.</li>
  * </ul>
  */
 public class KruskalMST {
